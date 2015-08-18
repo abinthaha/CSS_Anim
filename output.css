@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Orbitron:400,500,900,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+body {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+#header-div {
+  border-radius: 5px;
+  width: 99%;
+  position: fixed;
+  font-family: 'Orbitron', sans-serif;
+  margin: 5px 5px;
+  background-color: black;
+  border: 1px solid white;
+  transition: all .8s linear; }
+  #header-div h1 {
+    text-align: center;
+    font-style: normal;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    font-size: 40px;
+    vertical-align: middle;
+    color: #0b8d84;
+    transition: all .8s linear; }
+  #header-div:hover {
+    background-color: #0b8d84;
+    transition: all .8s linear;
+    border: 1px solid #213126; }
+    #header-div:hover h1 {
+      color: white;
+      transition: all .8s linear; }
+
+#feedback {
+  background-color: orange;
+  position: fixed;
+  margin: 5px 5px;
+  top: 400px;
+  height: auto;
+  border-radius: 5px;
+  width: 35px;
+  padding: 5px 5px;
+  box-shadow: 2px 2px 10px #888888;
+  text-align: right;
+  transition: width .9s linear; }
+  #feedback:hover {
+    width: 400px;
+    text-align: right;
+    color: transparent;
+    transition: width .9s linear;
+    padding: 5px 5px; }
+
+#wrapper {
+  position: relative;
+  top: 75px; }
+
+.each_container {
+  width: 99%;
+  padding: 5px 5px;
+  border: 1px dotted white;
+  border-radius: 5px;
+  margin: 10px; }
+
+.content {
+  font-size: 20px;
+  font-family: "Pacifico", cursive;
+  color: #EACABB;
+  text-align: justify; }
+
+.first-char {
+  float: left;
+  color: #903;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: Georgia; }
+
+#animation-div {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  margin-top: 100px; }
+
+#inner-div {
+  width: 200px;
+  height: 200px;
+  left: 250px;
+  margin-left: 450px;
+  margin-bottom: 100px;
+  background-color: aqua;
+  transform: rotate(-1440deg);
+  transition: all 2s ease; }
+  #inner-div:hover {
+    border-radius: 100px;
+    background-color: rgba(255, 125, 125, 0.7);
+    transform: rotate(1440deg);
+    transition: all 2s ease; }
+
+@media (orientation landscape) {
+  height: auto; }
+.heading {
+  font-size: 30px;
+  width: 100%;
+  font-family: "Sigmar One", cursive;
+  color: aqua;
+  text-align: center; }
+
+.footer {
+  height: 35px;
+  text-align: right;
+  border-top: 1px solid white;
+  margin-top: 20px;
+  padding: 5px 5px;
+  color: #EACABB; }
+
+/*# sourceMappingURL=output.css.map */

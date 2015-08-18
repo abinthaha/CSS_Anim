@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Orbitron:400,500,900,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+@import "contents.scss";
+
+@media (orientation landscape) {
+	height: auto;
+}
+.heading {
+	@include header;
+}
+.footer {
+	@include footer;
+}
